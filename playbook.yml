@@ -1,6 +1,15 @@
 ---
 - hosts: localhost
+  connection: local
+  roles:
+    - role: tkimball83.iterm2
+      iterm2_defaults:
+        - name: OnlyWhenMoreTabs
+          type: string
+          value: 0
+        - name: PromptOnQuit
+          type: bool
+          value: false
   tasks:
   - name: Install Sublime Text
     command: brew cask install sublime-text
-
