@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Install Sublime Text
+    command: brew cask install sublime-text
+
