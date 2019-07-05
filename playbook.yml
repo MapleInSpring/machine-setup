@@ -13,3 +13,7 @@
   tasks:
   - name: Install Sublime Text
     command: brew cask install sublime-text
+
+  - name: Download alfred source code
+    register: alfred_source_downloaded
+    get_url: dest=~/Downloads url={{alfred_source_url}}
