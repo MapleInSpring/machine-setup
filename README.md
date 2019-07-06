@@ -1,5 +1,6 @@
 ### Commands
 
+* Download roles to local `ansible-galaxy install -r requirements.yml`
 * Run playbook `ansible-playbook playbook.yml`
 
 

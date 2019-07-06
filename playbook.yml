@@ -21,6 +21,9 @@
     # needs login to mac store
     command: mas lucky wechat
 
+  - name: Install krypton
+    command: brew install kryptco/tap/kr
+
   - name: Download alfred source code
     register: alfred_source_downloaded
     get_url: dest=~/Downloads url={{alfred_source_url}}
