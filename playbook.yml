@@ -14,6 +14,13 @@
   - name: Install Sublime Text
     command: brew cask install sublime-text
 
+  - name: Install mas cli
+    command: brew install mas
+
+  - name: Install wechat
+    # needs login to mac store
+    command: mas install 836500024
+
   - name: Download alfred source code
     register: alfred_source_downloaded
     get_url: dest=~/Downloads url={{alfred_source_url}}
