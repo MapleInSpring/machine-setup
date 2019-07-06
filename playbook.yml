@@ -19,7 +19,7 @@
 
   - name: Install wechat
     # needs login to mac store
-    command: mas install 836500024
+    command: mas lucky wechat
 
   - name: Download alfred source code
     register: alfred_source_downloaded
