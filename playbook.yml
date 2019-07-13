@@ -11,6 +11,12 @@
           type: bool
           value: false
   tasks:
+  - name: Install chrome
+    command: brew cask install google-chrome
+
+  - name: Install Shiftif
+    command: brew cask install shiftit
+
   - name: Install Sublime Text
     command: brew cask install sublime-text
 
